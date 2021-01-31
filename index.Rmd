@@ -9,7 +9,7 @@ documentclass: book
 output: 
     bookdown::gitbook: default
   #bookdown::pdf_book: default
-  output_dir: "docs"
+output_dir: "docs"
 bibliography: ["citations.bib"]
 csl: "vancouver.csl"
 link-citations: true
