@@ -7,9 +7,9 @@ site: bookdown::bookdown_site
 lang: es-ES
 documentclass: book
 output: 
-  bookdown::gitbook: default
-   highlight: tango
+    bookdown::gitbook: default
   #bookdown::pdf_book: default
+  output_dir: "docs"
 bibliography: ["citations.bib"]
 csl: "vancouver.csl"
 link-citations: true
