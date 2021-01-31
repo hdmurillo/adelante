@@ -1,17 +1,101 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "ADELANTE"
+subtitle: "Una guía para mejorar nuestra salud por medio de los 8 remedios naturales."
+author: "Dr. Héctor Murillo"
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+lang: es-ES
 documentclass: book
-output:
+output: 
   bookdown::gitbook: default
   #bookdown::pdf_book: default
+bibliography: ["citations.bib"]
+csl: "vancouver.csl"
+link-citations: true
+
+
 ---
 
-# Hello World
+# Introducción
 
-Hi.
+> "El aire puro, el sol, la abstinencia, el descanso, el ejercicio, un régimen alimenticio conveniente, el agua y la confianza en el poder divino son los verdaderos remedios. Todos debieran conocer los agentes que la naturaleza provee como remedios, y saber aplicarlos." 
+>
+> --- El Ministerio de Curación p.89
 
-Bye.
+Los remedios naturales otorgados por Dios al ser humano tienen la finalidad de mantener y restaurar la salud. Como Adventistas hemos recibido un valioso mensaje de salud y es tiempo de reflexionar personalmente si lo hemos valorado y lo tenemos como una perla preciosa (Mateo 13:46), si lo tenemos como un tesoro en vaso de barro o si lo hemos desechado como las perlas a los cerdos.  
 
-<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
+Los ASD al referirnos a la salud aceptamos lo que está descrito en la Biblio y es aplicable a nuestra época, los escritos de Elena de White y lo que la evidencia científica ha descubierto y va acorde a nuestros principios. 
+
+Por algunos años trate de buscar información científica que “respaldara” o “confirmara” el mensaje de salud que hemos recibido los ASD y encontré de sobra, sin embargo después de reflexionar en mi propia vida y al hacer este libro llegué a la conclusión de que como ASD no deberíamos esperar a confirmar con la ciencia el mensaje recibido para comenzar a ponerlo en práctica y mucho menos para creer en él, si de verdad creemos que es un mensaje que viene de Dios, no debería haber mayor motivación para seguirlo que el hecho que Dios mismo lo ha entregado.  
+
+Aún así podemos decir que la ciencia ha confirmado muchos años después los 8 remedios naturales y muchos otros principios de salud que los ASD recibimos por medio de EGW en el siglo XIX y a inicios del XX.  
+
+He visto que nos alegramos cuando alguien que no es ASD reconoce los principios que tenemos, decimos que las personas de ciencia, de culto, de conocimiento reconocen lo que hemos recibido, si bien es una forma de testimonio, la mejor forma de testimonio es que nosotros los llevemos a la práctica y este mensaje salgan de los libros subrayados y empolvados que tenemos en nuestros hogares.  
+
+Encontramos en la Biblia que la salud es algo muy relevante para Dios, al crear al Ser  
+Humano a imagen y semejanza de Él mismo, le indicó algunas acciones que debía hacer para cuidarse y esto le permitiría mantenerse lo más cercano a la semejanza de Dios.  
+
+Las leyes de la Salud que Dios le indicó de manera directa e indirecta a Adán y Eva siguen vigentes hoy, a lo largo de la Biblia se destacan demostrando el valor y profundizando más en ellas, Jesús mismo al venir a vivir entre nosotros siguió estos principios y nos llevó a un plano superior al expresar que el mismo era los principios que se nos han dado, como cuando expresó Yo soy el pan de vida o cuando dijo Venid a mi todos lo que están trabajado y cargados que yo os haré descansar. 
+
+El mensaje de salud que recibimos los ASD por medio de las visiones de Elena G. de White es otra muestra de la importancia que debemos dar al cuidado de la salud, el mensaje llegó en una época en la que todo iba en contra de lo que recibieron y poco a poco fueron entendiendo y haciendo ajustes a su vida, apegándose cada vez más a la luz recibida. Este mensaje está alineado con lo que encontramos en la Biblia, aunque es un ajuste de los aspectos que en la actualidad necesitamos recordar para mantener y restaurar nuestra salud.  
+
+Los remedios naturales son solo una porción de todo lo que hemos recibido, pero la finalidad de este libro es enfocarnos en ellos. "El aire puro, el sol, la abstinencia, el descanso, el ejercicio, un régimen alimenticio conveniente, el agua y la confianza en el poder divino son los verdaderos remedios. Todos debieran conocer los agentes que la naturaleza provee como remedios, y saber aplicarlos." 
+
+En la Maestría de Salud Pública de la Universidad e Montemorelos se hizo el acróstico "ADELANTE" que engloba los 8 principios expresados en este texto y además esta palabra nos marca una dirección en la que debemos ir para conocer y aplicar estos principios.  
+
+El ser humano está en una condición de pecado, muy alejados de la imagen y semejanza de Dios, pero por medio de estos remedios naturales podemos mantener al cuerpo en el mejor estado posible de cada uno, así mismo podemos restaurar el cuerpo cuando estamos en una condición de enfermedad hasta donde sea posible bajo las condiciones de nuestro cuerpo.  
+
+La finalidad de mantener al cuerpo en el mejor estado posibles es para cumplir con la gran comisión que se nos ha sido asignada, "Por tanto id y hacer discípulos a todas las naciones, bautizándolos en el nombre del Padre del Hijo y del Espíritu Santo, y ensenándoles todas las cosas que os he mandado (Mateo 28:19-20) y la mejor forma para lograr esto es estando con salud ya que así podemos servir mejor y por más tiempo.  
+
+Que cada uno de nosotros podamos conocer, valorar y  aplicar cada día estos regalos de la naturaleza que Dios nos ha dejado para mantener y restaurar nuestra salud para cumplir con la misión que tenemos. 
+
+[@numbers_prophetess_1976] [(VER)](https://pubmed.ncbi.nlm.nih.gov/33505018/)
+
+```{r}
+# Muestra de referencias a texto.
+
+```
+
+
+(ref:label) Referencia de salud
+
+
+
+>La salud es una bendición inestimable. 
+>
+>---EGW
+
+(ref:label)
+
+Table: Tabla simple
+
+ **Título Columna 1** |  **Título columna 2** | 
+----------------------| ----------------------|
+*Texto 1* | Texto 2 
+*Texto 3* | Texto 4
+
+#### Construcción de una lista sin números{-}
+* Elemento 1
+* Elemento 2
+    * Otro elemento
+    * Otro otro elemento
+
+**negrita**
+
+*cursiva*
+  
+_subrayado_
+
+> Texto con un tabulado mayor al párrafo normal.
+
+Texto que está hablando de un tema y quiere poner una nota al pie [^1].
+
+[^1]: texto de la nota al pie
+
+Para ingresar un enlace asociado a una palabra, se debe encerrar la palabra o palabras 
+que [queremos sea un enlace](www.url.com)
+
+#### Referencias {-}
+
+::: {#refs}
+:::
