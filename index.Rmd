@@ -8,12 +8,11 @@ lang: es-ES
 documentclass: book
 output: 
   bookdown::gitbook: default
+   highlight: tango
   #bookdown::pdf_book: default
 bibliography: ["citations.bib"]
 csl: "vancouver.csl"
 link-citations: true
-
-
 ---
 
 # Introducción
@@ -66,6 +65,8 @@ Que cada uno de nosotros podamos conocer, valorar y  aplicar cada día estos reg
 >---EGW
 
 (ref:label)
+
+{#id}
 
 Table: Tabla simple
 
