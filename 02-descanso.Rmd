@@ -3,11 +3,4 @@
 
 [aire][Aire Puro]
 
-```{block2, type='FOO'}
-Some text for this block [@citation-key].
 
-- a list item
-- another item
-- end the list with a blank line
-
-```

@@ -8,7 +8,6 @@ lang: es-ES
 documentclass: book
 output: 
     bookdown::gitbook: default
-  #bookdown::pdf_book: default
 output_dir: "docs"
 bibliography: ["citations.bib"]
 csl: "vancouver.csl"

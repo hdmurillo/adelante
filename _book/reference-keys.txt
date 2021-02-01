@@ -7,4 +7,3 @@ agua-pura
 nutrición-adecuada
 temperancia
 esperanza-en-dios
-id
